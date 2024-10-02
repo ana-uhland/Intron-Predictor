@@ -1,5 +1,6 @@
 # Intron-Predictor
-Project from BME160
+Project from BME160 at UCSC.
+
 This program was inspired by Michael R Brent's 2007 article in Nature titled "How does eukaryotic gene prediction work?" In his article, Brent presented a weight diagram of nucleotide frequency at splice sites, which served as the foundation for this project.[1] The weight diagram gave me the idea to attempt to make an intron predictor that looks for the start and end of an intron sequence. My interest in identifying splice sites comes from my involvement in the Toxic RNA Lab, led by Jeremy Sandford, where we study mutations that may affect splicing.
 
 To make a program capable of predicting something as complex as splicing, compromises and simplifications had to be considered. The biggest was to only look at 12 nucleotides per predicted intron. 
